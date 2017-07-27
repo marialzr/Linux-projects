@@ -1,6 +1,5 @@
-//implement a program that gets as arguments a file name followed by words. For each word, create
-//a separate thread that counts its appearances in a given file. Print out the sum of the
-//appearances of all words.
+//Implement a program that gets as arguments a file name followed by words. For each word, create a separate thread that counts 
+//its appearances in a given file. Print out the sum of the appearances of all words.
 #include <stdio.h>
 #include <stdlib.h>
 #include <pthread.h>
