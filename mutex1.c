@@ -42,12 +42,14 @@ int main(int argc, char* argv[])
 		pthread_create(&th[i], NULL, function, nr);
 	}
 	for (i=0; i<n; i++)
+		pthread_join(th[i], NULL);
+	for (i=0; i<n; i++)
 	{
 		printf("The thread with id equals to %d has read: ", i);
 		for (int j=0; j<100; j++)
 			if (a[i][j]==1)
 				printf("%d ", j);
 	}
-
+	return 0;
 }
 
