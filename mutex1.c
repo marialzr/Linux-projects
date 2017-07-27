@@ -1,7 +1,7 @@
-Scrieti o aplicatie care creeaza N threaduri ce concureaza pt a citi cuvinte de la tastatura. 
-La fiecare citire, va fi afisat indexul threadului ce face citirea. Toate threadurile se vor termina dupa citirea a M 
-cuvinte. M si N se vor da ca parametri din linia de comanda. La final, threadul principal (main) 
-va afisa pentru fiecare thread toate cuvintele pe care le-a citit, in ordinea in care au fost citite.
+//Scrieti o aplicatie care creeaza N threaduri ce concureaza pt a citi cuvinte de la tastatura. 
+//La fiecare citire, va fi afisat indexul threadului ce face citirea. Toate threadurile se vor termina dupa citirea a M cuvinte. 
+//M si N se vor da ca parametri din linia de comanda. La final, threadul principal (main) va afisa pentru fiecare thread 
+//toate cuvintele pe care le-a citit, in ordinea in care au fost citite.
 #include <stdio.h>
 #include <stdlib.h>
 #include <pthread.h>
