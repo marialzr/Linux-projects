@@ -1,5 +1,6 @@
 #!/bin/bash
-#Write a shell script that will monitor the content of a folder (given in the command line) and notify if files or folders are created or deleted from it.
+#Write a shell script that will monitor the content of a folder (given in the command line) and notify if files or folders are created 
+#or deleted from it.
 read -p "Enter the filename:" file
 while true; do
 	for x in $@; do
