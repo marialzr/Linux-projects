@@ -29,7 +29,7 @@ void* function(void* arg)
 	}
 	return NULL;
 }
-int main(int argc, char* atgv[])
+int main(int argc, char* argv[])
 {
 	pthread_t th[100];
 	int n, i;
