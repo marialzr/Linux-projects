@@ -1,4 +1,4 @@
-#Write a shell script that receives a director name and a number n. Prints the name of n biggest files from the given directory and his 
+#Write a shell script that receives a director name and a number n. Prints the name of n biggest files from the given directory and its 
 #subdirectories sorted by dimension in decreasing order and the number of words for each file.
 #!/bin/bash
 i=0
