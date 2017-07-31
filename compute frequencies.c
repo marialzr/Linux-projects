@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <pthread.h>
-//Sa se scrie un program care calculeaza si afiseaza frecventa //caracterului 5 si a caracterului 7 in cuvintele primite ca //argumente in linia de comand. Programul va crea un numar de //thread-uri egal cu numarul de argumente din linia de comanda.
+//Sa se scrie un program care calculeaza si afiseaza frecventa caracterului 5 si a caracterului 7 in cuvintele primite ca 
+//argumente in linia de comand. Programul va crea un numar de thread-uri egal cu numarul de argumente din linia de comanda.
 
 int a, b;
 
